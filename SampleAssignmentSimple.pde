@@ -1,9 +1,3 @@
-//GOAL: make a 'traffic light' simulator. For now, just have the light 
-// changing according to time. You may want to investigate the millis()
-// function at processing.org/reference.
-
-void setup() {
-  size(600, 600);
 }
 
 void draw() {
