@@ -5,6 +5,12 @@ void setup() {
 void draw() {
   background(255);
   drawOutlineOfLights();
+  yellowlight();
+}
+
+void yellowlight(){
+  fill(255,255,0);
+  ellipse(width/2, height/2, 50, 50); //middle
 }
 
 void drawOutlineOfLights() {
